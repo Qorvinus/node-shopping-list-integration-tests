@@ -12,7 +12,7 @@ describe("Recipes", function() {
     return runServer();
   });
   after(function() {
-    returns closeServer();
+    return closeServer();
   });
   it("Should list recipes on GET", function() {
     return chai
