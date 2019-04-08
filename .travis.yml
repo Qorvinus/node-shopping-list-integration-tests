@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: IjoL/xXRd/j0AphIhMkxrFXYOpefQ8GaVSa4+n1dO0Eoqsmw5P9DQOEZJ2JNhzPTFVUihxO2M52N8AM1YCAqOrWOPWnnRtF8AvQCXao+09+CcOj/PdRhMiWoLSF8QM1tMjhCdoYxbZAPdAEp3IzFSZLCpAkOsXCA22b/CnMkXaZ3qtakyJpLoZL+pih2VYH7ztKFm3gW0azHHAPZDMvtAejC9yhW9PfVrlMAwOQ4c6ft9RsqIfvviZs+wlQ0I0wWvFp1swnPfUOQ5uneD2dHOyXOSfAm6dTP/Iq6C2teKZGqVpl08dWyeN67UE9y2xpoaHuAPrcMs1Sq5uJ3kFGV/XkQCyzlwerthIiQs2piz6ogFaz+2dixFojFXRY88fn0B/UUfVBQlHB6wGRhlXcFhph+GiY2SBJ6HZ5WO9VODDxKpf6xiX20w0g6MeUb95s1QwJfh5RnPDm/TNB88JiFEYZJzQJACwfW/RiE8BtMmmlG2yAwtPQV/7ev5A8xVCAgdVMXCvhQgKLcj5y25lBxqONIXWogRrXb6J9/3N8xlieu47t8Lg+XS/Z+Mm+bGZTbF/mmI+1GRHb5sczJfVzNR06HaIuSbJ/6yaIA+6hChQWAq9APV7OzCFCVcWVZWRTijWgeswyjSEge3TxFS1PQ+dM2XM7NCnsqh8tUMEvAvFc=
+  app: young-dusk-22090
+  on:
+    repo: Qorvinus/node-shopping-list-integration-tests
